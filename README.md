@@ -7,6 +7,9 @@ Dönemin ilk ödevi için, klasörde HTML dosyası olarak verilmiş web sayfası
 4.	(+1 puan bonus) İlk maddedeki toplama işleminin yapıldığı metin kutularına sadece nümerik karakterler (0, 1, 2, vb. sadece rakam) girilebilmesini sağlayan JavaScript kodunu ekleyiniz.
 
 ##Referanslar
+
 [Input only Number in Javascript](https://engincode.com/input-only-number-in-javascript)
+
 [Element.setAttribute()](https://developer.mozilla.org/en-US/docs/Web/API/Element/setAttribute)
+
 [Converting strings to numbers with vanilla JavaScript](https://gomakethings.com/converting-strings-to-numbers-with-vanilla-javascript/)
