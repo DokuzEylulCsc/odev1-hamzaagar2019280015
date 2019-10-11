@@ -22,10 +22,10 @@
     <br /><br />
     <button type="button" onclick="yapistir()">Yapıştır</button>
     <script type="text/javascript">
-        //Input boxes assigne to variables
+        //Input boxes assign to variables
         var text1 = document.querySelector("#id1");
         var text2 = document.querySelector("#id2");
-        //Use onpresskey attribute for input only numbers
+        //Using onpresskey attribute for input only numbers
         text1.setAttribute("onkeypress", "return event.charCode>= 48 &&event.charCode<= 57");
         text2.setAttribute("onkeypress", "return event.charCode>= 48 &&event.charCode<= 57");
         function toplama() {
