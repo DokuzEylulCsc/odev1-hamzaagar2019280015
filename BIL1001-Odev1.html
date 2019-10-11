@@ -1,21 +1,46 @@
 <!DOCTYPE html>
 <html>
-<body>
-<h2>2019 Güz Döneminin ilk ödevi</h2>
-<label for="id1">Metin kutusu 1</label>
-<input type='text' id='id1' /> 
-<br>
-<label for="id2">Metin kutusu 2</label>
-<input type='text' id='id2' /> 
-<br><br>
-<button type="button">Topla</button>
-<br><br>
-<label for="id3">Metin kutusu 3</label>
-<input type='text' id='id3' /> 
-<br>
-<label for="id4">Metin kutusu 4</label>
-<input type='text' id='id4' /> 
-<br><br>
-<button type="button">Yapıştır</button>
-</body>
+  <head>
+    <title>HAMZA AÄAR 2019280015</title>
+  </head>
+  <body>
+    <h2>2019 GÃ¼z DÃ¶neminin ilk Ã–devi</h2>
+    <h2>HAMZA AÄAR 2019280015</h2>
+    <label for="id1">Metin kutusu 1</label>
+    <input type="text" id="id1" />
+    <br />
+    <label for="id2">Metin kutusu 2</label>
+    <input type="text" id="id2" />
+    <br /><br />
+    <button type="button" onclick="toplama()">Topla</button>
+    <br /><br />
+    <label for="id3">Metin kutusu 3</label>
+    <input type="text" id="id3" />
+    <br />
+    <label for="id4">Metin kutusu 4</label>
+    <input type="text" id="id4" />
+    <br /><br />
+    <button type="button" onclick="yapistir()">YapÄ±ÅŸtÄ±r</button>
+    <script type="text/javascript">
+        //Input boxes assigne to variables
+        var text1 = document.querySelector("#id1");
+        var text2 = document.querySelector("#id2");
+        //Use onpresskey attribute for input only numbers
+        text1.setAttribute("onkeypress", "return event.charCode>= 48 &&event.charCode<= 57");
+        text2.setAttribute("onkeypress", "return event.charCode>= 48 &&event.charCode<= 57");
+        function toplama() {
+            var sayi1 = parseInt(document.getElementById("id1").value);
+            var sayi2 = parseInt(document.getElementById("id2").value);
+            var toplam = sayi1 + sayi2;
+            console.log(toplam)
+            alert("SayÄ±larÄ±n toplamÄ±: " + toplam);
+        }
+
+        function yapistir() {
+            var yazi1 = document.getElementById("id3").value;
+            var yazi2 = document.getElementById("id4").value;
+            alert(yazi1 + " " + yazi2);
+        }
+    </script>
+  </body>
 </html>
