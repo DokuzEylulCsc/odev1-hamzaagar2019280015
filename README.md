@@ -6,7 +6,7 @@ Dönemin ilk ödevi için, klasörde HTML dosyası olarak verilmiş web sayfası
 3.	Web sayfanız açıldığında, başlığında (sekmede gözüken) ve içerisindeki ilk başlıkta (sayfanın üzerinde gözükecek şekilde) isminiz ve öğrenci numaranız yazılı olmalıdır.
 4.	(+1 puan bonus) İlk maddedeki toplama işleminin yapıldığı metin kutularına sadece nümerik karakterler (0, 1, 2, vb. sadece rakam) girilebilmesini sağlayan JavaScript kodunu ekleyiniz.
 
-##Referanslar
+## Referanslar
 
 [Input only Number in Javascript](https://engincode.com/input-only-number-in-javascript)
 
